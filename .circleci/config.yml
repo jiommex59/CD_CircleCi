@@ -53,7 +53,8 @@ jobs:
             else
               return 1
             fi
-      - destroy_environment    
+      # - destroy_environment    
+
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
